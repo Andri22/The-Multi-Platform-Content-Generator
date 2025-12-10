@@ -32,8 +32,9 @@ Aplikasi GenAI berbasis Python yang membantu content creator membuat konten untu
    ```bash
    pip install -r requirements.txt
 4. **Setup API Key Buat file .env dan isi:**
+   ```bash
    GOOGLE_API_KEY=masukkan_api_key_disini
-5. **Run App**
+6. **Run App**
    ```bash
    streamlit run app.py
 
