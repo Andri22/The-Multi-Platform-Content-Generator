@@ -24,18 +24,17 @@ Aplikasi GenAI berbasis Python yang membantu content creator membuat konten untu
    git clone [https://github.com/username-anda/ai-content-generator.git](https://github.com/username-anda/ai-content-generator.git)
    cd ai-content-generator
 2. **Setup Environment**
-   ``bash
+   ```bash
    python -m venv venv
    source venv/bin/activate  # (Mac/Linux)
-   # atau
    venv\Scripts\activate     # (Windows)
 3. **Install Dependencies**
-   ``bash
+   ```bash
    pip install -r requirements.txt
 4. **Setup API Key Buat file .env dan isi:**
    GOOGLE_API_KEY=masukkan_api_key_disini
 5. **Run App**
-   ``bash
+   ```bash
    streamlit run app.py
 
 👨‍💻 Author
